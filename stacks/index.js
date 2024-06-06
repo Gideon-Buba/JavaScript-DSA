@@ -1,5 +1,3 @@
-/* Stacks */
-
 const letters = [];
 
 const word = "john";
@@ -7,8 +5,8 @@ const word = "john";
 let rword = "";
 
 // Adding letters of the word to a stack
-for (let i = 0; i < word.lengthx; i++) {
-  letters.push(word(i));
+for (let i = 0; i < word.length; i++) {
+  letters.push(word[i]);
 }
 
 // Pop stack in reverse order
